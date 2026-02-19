@@ -57,7 +57,7 @@ Where redistribution of certain payloads is restricted, only metadata or sanitiz
 This repository integrates an externally published fuzzing dataset generated using the OWASP ZAP proxy. The dataset contains payloads and corresponding response codes obtained from automated fuzzing experiments.
 
 The full dataset is publicly available via IEEE DataPort:
-[IEEE DataPort DOI or URL]
+[[IEEE DataPort DOI or URL](https://ieee-dataport.org/documents/preliminary-fuzzing-dataset-iot-application-layer-security-evaluation-using-modsecurity)]
 
 Within this repository, the dataset is referenced for:
 - Cross-validation of detection behavior
