@@ -64,19 +64,17 @@ Within this repository, the dataset is referenced for:
 - Comparative analysis of fuzzing-derived payloads versus curated attack payloads
 - Supplementary evaluation of resource exhaustion and buffer overflow scenarios
 
-Scripts in the `analysis/` directory demonstrate how the DataPort dataset is incorporated into the evaluation pipeline.
 
 ---
 
 ## Reproducibility
 
 To reproduce the experiments:
-1. Set up the environment as described in `experiments/environment.yml`.
-2. Configure ModSecurity and CRS using the files in `modsecurity/`.
-3. Run the experiment orchestration scripts in `experiments/`.
-4. Compute detection metrics and confidence intervals using scripts in `analysis/`.
+1. Set up the environment as described in `https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5939725`.
+2. Configure ModSecurity and CRS using the files in `Config/`.
+3. Run the experiment orchestration thorugh translation scripts in `module/`.
+4. Compute detection metrics and confidence intervals.
 
-Detailed step-by-step instructions are provided in `experiments/reproduce_results.md`.
 
 ---
 
